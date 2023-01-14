@@ -1,6 +1,8 @@
 import "./App.css";
 
 function App() {
+  console.log(import.meta.env.VITE_LOGIN_URL);
+
   return (
     <div className="App">
       <h1>Landing Page</h1>
